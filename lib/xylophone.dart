@@ -15,7 +15,6 @@ class _XyloPhoneState extends State<XyloPhone> {
   var index = 0;
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         title: Text('Xylo phone'),

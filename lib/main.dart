@@ -1,10 +1,12 @@
+import 'package:dice_flutter_app/bmi_calc/bmi_calc.dart';
 import 'package:dice_flutter_app/dicee.dart';
 import 'package:dice_flutter_app/xylophone.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 
 void main() {
-  runApp(const MyApp());
+  //runApp(const MyApp());
+  runApp(BMICalcPage());
 }
 
 class MyApp extends StatelessWidget {
